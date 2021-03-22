@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <TimeLine></TimeLine>
-    <RedesSociales></RedesSociales>
+    <Menu></Menu>
   </div>
 
 </template>
@@ -9,6 +8,7 @@
 <script>
 import TimeLine from './TimeLine.vue'
 import RedesSociales from './RedesSociales.vue'
+import Menu from './Menu.vue'
 
 export default {
   name: 'app',
@@ -16,9 +16,11 @@ export default {
   },
   components:{
     'TimeLine' : TimeLine,
-    'RedesSociales' : RedesSociales
+    'RedesSociales' : RedesSociales,
+    'Menu' : Menu
   }
 
 }
 </script>
+
 

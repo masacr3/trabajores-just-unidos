@@ -33,7 +33,7 @@ export default {
         { fecha : '1 mar', extracto : 'Decidimos nuestra salida de SEOCA por desacuerdos en la forma de encarar el conflicto. Sindicato CIS (CTA autónoma) adhiere a nuestra causa. Denunciamos a JUST por vaciamiento, lockout patronal. Etc.'},
         { fecha : '4 mar', extracto : 'Realizamos caravana de autos por medios masivos denunciando nuestra situación.  Resultados muy positivos'},
         { fecha : '8 mar', extracto : 'Se coordina en Argentina (sindicato CTA Autónoma, partidos, movimientos sociales) y Suiza (sindicato UNIA) reclamos en las plantas Just de ambos países.'},
-        { fecha : '10 mar',extracto : 'Realizamos una movilización junto a las organizaciones sociales, partidos políticos, y el sindicato CIS. Dicha acción se combino con el sindicato UNIA de Suiza que se presento en la planta ubicada en la ciudad de Walsenhausen haciendo suyo nuestro reclamo.'}
+        { fecha : '10 mar',extracto : 'Realizamos una movilización junto a las organizaciones sociales, partidos políticos, y el sindicato CIS. Dicha acción se combino con el sindicato UNIA de Suiza que se presento en la planta ubicada en la ciudad de Walsenhausen haciendo suyo nuestro reclamo.'},
       ]
     }
   },
@@ -48,29 +48,12 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 
-body {
-  background: #e8cbc0;
-}
-
 .container {
   background: #232931;
   width: 100%;
-  margin: 0 auto;
   position: relative;
-  box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5);
   font-size: 2.5rem;
 }
-
-.leftbox {
-  top: -5%;
-  left: 5%;
-  position: absolute;
-  width: 15%;
-  height: 110%;
-  background-color: #50d890;
-  box-shadow: 3px 3px 15px rgba(119, 119, 119, 0.5);
-}
-
 
 .rightbox {
   padding: 0em 34rem 0em 0em;
